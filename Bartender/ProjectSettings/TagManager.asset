@@ -7,7 +7,12 @@ TagManager:
   - Left Hand
   - Right Hand
   - Meteor
+  - Umbrella
+  - Lime
   - Energy
+  - Glass
+  - Shaker_Cap
+  - Shaker_Top
   layers:
   - Default
   - TransparentFX
@@ -15,7 +20,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Magarita
   - 
   - 
   - 
