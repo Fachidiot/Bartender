@@ -16,8 +16,6 @@ public class PlayerManager : MonoBehaviour
         if (Instance != null)
             Destroy(Instance);
         Instance = this;
-
-        DontDestroyOnLoad(Instance);
     }
 
     public GameObject GetLeftHandModel()
