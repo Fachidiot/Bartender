@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class ButtonPush : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class ButtonPush : MonoBehaviour
 
     void Start()
     {
-        GetComponent<XRSimpleInteractable>().selectEntered.AddListener(x => Toggle());
+        GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable>().selectEntered.AddListener(x => Toggle());
     }
 
     private void Toggle()

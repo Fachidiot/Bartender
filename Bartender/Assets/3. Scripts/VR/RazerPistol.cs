@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class RazerPistol : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class RazerPistol : MonoBehaviour
 
     void Start()
     {
-        XRGrabInteractable grabInteractable = GetComponent<XRGrabInteractable>();
+        UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
         grabInteractable.activated.AddListener(x => StartShoot());
         grabInteractable.deactivated.AddListener(x => StopShoot());
     }

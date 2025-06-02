@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-[RequireComponent(typeof(XRGrabInteractable))]
+[RequireComponent(typeof(UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable))]
 public class DisableGrabbingHandModel : MonoBehaviour
 {
-    // Grab ÀÌº¥Æ®½Ã ¼Õ °¡¸®´Â°Ô ÇÊ¿äÇÑ ¸ðµ¨¿¡ Àû¿ë.
+    // Grab ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â°ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ðµ¨¿ï¿½ ï¿½ï¿½ï¿½ï¿½.
     private GameObject m_leftHandModel;
     private GameObject m_rightHandModel;
 
@@ -13,7 +13,7 @@ public class DisableGrabbingHandModel : MonoBehaviour
         m_leftHandModel = PlayerManager.Instance.GetLeftHandModel();
         m_rightHandModel = PlayerManager.Instance.GetRightHandModel();
 
-        XRGrabInteractable grabInteractable = GetComponent<XRGrabInteractable>();
+        UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
         grabInteractable.selectEntered.AddListener(HideGrabbingHand);
         grabInteractable.selectExited.AddListener(ShowGrabbingHand);
     }
