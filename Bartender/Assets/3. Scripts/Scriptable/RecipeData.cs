@@ -7,6 +7,8 @@ public class RecipeData : ScriptableObject
 {
     [SerializeField]
     private Dictionary<LiquidData, float> inputLiquids = new Dictionary<LiquidData, float>();
+    [SerializeField]
+    private Sprite cocktailImage;
 
     // 직렬화를 위한 리스트
     [SerializeField]
