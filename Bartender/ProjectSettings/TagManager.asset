@@ -17,6 +17,7 @@ TagManager:
   - Projectile
   - Destroyer
   - Flame
+  - Shaker_Body
   layers:
   - Default
   - TransparentFX
