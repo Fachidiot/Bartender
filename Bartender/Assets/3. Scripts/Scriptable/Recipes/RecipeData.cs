@@ -21,9 +21,8 @@ namespace Scriptable.Recipes
         [SerializeField]
         private List<Ingredient> ingredients = new();
 
-        /// <summary>
-        /// Dictionary로 변환해서 사용 (런타임 용도)
-        /// </summary>
+
+        // Dictionary로 변환해서 사용 (런타임 용도)
         public Dictionary<LiquidData, float> GetLiquidDictionary()
         {
             Dictionary<LiquidData, float> dict = new();

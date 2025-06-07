@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c0878bf30a4694584dba896d839c95, type: 3}
   m_Name: Kahlua Milk
   m_EditorClassIdentifier: 
-  cocktailImage: {fileID: 21300000, guid: c4fdd0d0c172917448b20e4b4e1a4fe8, type: 3}
-  ingredients: []
+  cocktailImage: {fileID: 21300000, guid: 6009f158dc1344e4983b8fbdd26bcd92, type: 3}
+  ingredients:
+  - liquid: {fileID: 11400000, guid: 66042e080591e224c91aa974784fde08, type: 2}
+    amount: 0
+  - liquid: {fileID: 11400000, guid: e9727bfbff8e04f4a8c4547677da23d8, type: 2}
+    amount: 0

@@ -21,8 +21,9 @@ public class NPCController : MonoBehaviour
     {
         stateMachine = new NPCStateMachine();
         stateMachine.Intialize(this);
-    }
+        seatManager = FindObjectOfType<NPCSeatManager>();
 
+    }
 
     private void Start()
     {
