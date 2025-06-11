@@ -1,29 +1,16 @@
 using UnityEngine;
 
-enum LiquidType
+public enum LiquidType
 {
-    Wine,
-    Beer,
-    Vodka,
-    Whiskey,
-    Rum,
-    Gin,
-    Tequila,
-    Brandy,
-    Liqueur,
-    Soda,
-    Juice,
-    Water,
-    Milk
+    Wine, Beer, Vodka, Whiskey, Rum, Gin,
+    Tequila, Brandy, Liqueur, Soda, Juice, Water, Milk
 }
 
-
-[CreateAssetMenu(fileName = "Liquid Data", menuName = "Scriptable Object/Liquid Data", order = int.MaxValue)]
+[CreateAssetMenu(fileName = "Liquid Data", menuName = "Scriptable Object/Liquid Data")]
 public class LiquidData : ScriptableObject
 {
-    [SerializeField]
-    private LiquidType liquidType;
-    [SerializeField]
+    public LiquidType liquidType;
+
     [Range(0f, 100f)]
-    private float liquidAlcohol;
+    public float liquidAlcohol;
 }
