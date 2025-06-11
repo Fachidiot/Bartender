@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6f20d08ffd0f64cae2404e9c110799, type: 3}
   m_Name: Olmeca
   m_EditorClassIdentifier: 
-  liquidType: 6
-  liquidAlcohol: 18
+  liquidType: 3
+  liquidAlcohol: 40

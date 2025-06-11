@@ -45,8 +45,8 @@ Material:
     - _WobbleX: 0
     - _WobbleZ: 0
     m_Colors:
-    - _SideColor: {r: 2.0000002, g: 2.0000002, b: 2.0000002, a: 0}
-    - _TopColor: {r: 2.0000005, g: 2.0000005, b: 2.0000005, a: 1}
+    - _SideColor: {r: 5.9921575, g: 5.9921575, b: 5.9921575, a: 0}
+    - _TopColor: {r: 5.992158, g: 5.992158, b: 5.992158, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1349153667635590303
 MonoBehaviour:

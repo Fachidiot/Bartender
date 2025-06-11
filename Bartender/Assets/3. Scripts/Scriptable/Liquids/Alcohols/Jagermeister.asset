@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d6f20d08ffd0f64cae2404e9c110799, type: 3}
-  m_Name: Sortilege
+  m_Name: Jagermeister
   m_EditorClassIdentifier: 
-  liquidType: 8
-  liquidAlcohol: 17
+  liquidType: 2
+  liquidAlcohol: 40
