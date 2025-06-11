@@ -10,4 +10,5 @@ public class LiquidDetector : MonoBehaviour
     {
         trigger = GetComponent<SphereCollider>();
         trigger.isTrigger = true;
+    }
 }
